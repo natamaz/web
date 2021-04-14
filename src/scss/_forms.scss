@@ -1,0 +1,84 @@
+.form-box {
+    max-width: 1141px;
+    border: 1px solid rgba(#CCAF83, 0.5);
+    background: #101010;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 30px;
+    &__title {
+        color: #ccaf83;
+        font-family: Playfair Display SC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: (24 / 18);
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    .form {
+        max-width: 964px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.form-col {
+    padding: 0 8px;
+    margin-bottom: 25px;
+    width: 100%;
+    &_3 {
+        @media (min-width: 576px) {
+            width: (100% / 3);
+        }
+    }
+}
+
+.form-input {
+    border: 1px solid rgba(#4E4E4E, 0.5);
+    padding: 18px 25px;
+    background: transparent;
+    display: block;
+    width: 100%;
+    border-radius: 0;
+
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+    color: #fff;
+
+    &:focus {
+        outline: none;
+        // box-shadow: 0 0 0 2px rgba(#4E4E4E, 0.5);
+        border-color: #4E4E4E;
+    }
+
+    &::placeholder {
+        color: #fff;
+    }
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover, 
+    &:-webkit-autofill:focus {
+        border: 1px solid rgba(#4E4E4E, 0.5);
+        -webkit-text-fill-color: #fff;
+        -webkit-box-shadow: 0 0 0px 1000px #101010 inset;
+        transition: background-color 5000s ease-in-out 0s;
+    }
+}
+
+.form-btn-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,31 @@
+.header {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    padding: 8px 30px;
+    background: #fff;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+    z-index: 16;
+}
+
+.header-logo {
+    max-width: 180px;
+    margin-right: auto;
+    flex-grow: 0;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    &__link {
+        color: #101010;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: (21 / 16);
+        letter-spacing: 0.1em;
+        text-decoration: none;
+        margin-left: 45px;
+    }
+}

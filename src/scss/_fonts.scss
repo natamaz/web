@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-Medium.eot');
+    src: local('../fonts/VisueltPro-Medium'),
+        url('../fonts/VisueltPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VisueltPro-Medium.woff2') format('woff2'),
+        url('../fonts/VisueltPro-Medium.woff') format('woff'),
+        url('../fonts/VisueltPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-Regular.eot');
+    src: local('../fonts/VisueltPro-Regular'),
+        url('../fonts/VisueltPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VisueltPro-Regular.woff2') format('woff2'),
+        url('../fonts/VisueltPro-Regular.woff') format('woff'),
+        url('../fonts/VisueltPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-Bold.eot');
+    src: local('../fonts/VisueltPro-Bold'),
+        url('../fonts/VisueltPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VisueltPro-Bold.woff2') format('woff2'),
+        url('../fonts/VisueltPro-Bold.woff') format('woff'),
+        url('../fonts/VisueltPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-ExtraLight.eot');
+    src: local('../fonts/VisueltPro-ExtraLight'),
+        url('../fonts/VisueltPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VisueltPro-ExtraLight.woff2') format('woff2'),
+        url('../fonts/VisueltPro-ExtraLight.woff') format('woff'),
+        url('../fonts/VisueltPro-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-Thin.eot');
+    src: local('../fonts/VisueltPro-Thin'),
+        url('../fonts/VisueltPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VisueltPro-Thin.woff2') format('woff2'),
+        url('../fonts/VisueltPro-Thin.woff') format('woff'),
+        url('../fonts/VisueltPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-Italic.eot');
+    src: local('../fonts/VisueltPro-Italic'),
+        url('../fonts/VisueltPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VisueltPro-Italic.woff2') format('woff2'),
+        url('../fonts/VisueltPro-Italic.woff') format('woff'),
+        url('../fonts/VisueltPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-ExtraLightItalic.eot');
+    src: local('../fonts/VisueltPro-ExtraLightItalic'),
+        url('../fonts/VisueltPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VisueltPro-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/VisueltPro-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/VisueltPro-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-BoldItalic.eot');
+    src: local('../fonts/VisueltPro-BoldItalic'),
+        url('../fonts/VisueltPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VisueltPro-BoldItalic.woff2') format('woff2'),
+        url('../fonts/VisueltPro-BoldItalic.woff') format('woff'),
+        url('../fonts/VisueltPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-Black.eot');
+    src: local('../fonts/VisueltPro-Black'),
+        url('../fonts/VisueltPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VisueltPro-Black.woff2') format('woff2'),
+        url('../fonts/VisueltPro-Black.woff') format('woff'),
+        url('../fonts/VisueltPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-MediumItalic.eot');
+    src: local('../fonts/VisueltPro-MediumItalic'),
+        url('../fonts/VisueltPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VisueltPro-MediumItalic.woff2') format('woff2'),
+        url('../fonts/VisueltPro-MediumItalic.woff') format('woff'),
+        url('../fonts/VisueltPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-Light.eot');
+    src: local('../fonts/VisueltPro-Light'),
+        url('../fonts/VisueltPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VisueltPro-Light.woff2') format('woff2'),
+        url('../fonts/VisueltPro-Light.woff') format('woff'),
+        url('../fonts/VisueltPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-BlackItalic.eot');
+    src: local('../fonts/VisueltPro-BlackItalic'),
+        url('../fonts/VisueltPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VisueltPro-BlackItalic.woff2') format('woff2'),
+        url('../fonts/VisueltPro-BlackItalic.woff') format('woff'),
+        url('../fonts/VisueltPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-LightItalic.eot');
+    src: local('../fonts/VisueltPro-LightItalic'),
+        url('../fonts/VisueltPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VisueltPro-LightItalic.woff2') format('woff2'),
+        url('../fonts/VisueltPro-LightItalic.woff') format('woff'),
+        url('../fonts/VisueltPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-ThinItalic.eot');
+    src: local('../fonts/VisueltPro-ThinItalic'),
+        url('../fonts/VisueltPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VisueltPro-ThinItalic.woff2') format('woff2'),
+        url('../fonts/VisueltPro-ThinItalic.woff') format('woff'),
+        url('../fonts/VisueltPro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+// Sansation font
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/Sansation/Sansation-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

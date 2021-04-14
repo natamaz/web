@@ -1,0 +1,58 @@
+.h-hero {
+    background: #101010;
+    padding: 63px 30px;
+    .form-box {
+        position: relative;
+        z-index: 15;
+    }
+}
+
+.h-hero-text {
+    position: relative;
+    z-index: 15;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 84px;
+    margin-bottom: 40px;
+    &:before {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 72px;
+        background: #CCAF83;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &:after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 35px;
+        background: #CCAF83;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__title {
+        color: #fff;
+        font-family: Playfair Display SC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 45px;
+        letter-spacing: 0.15em;
+        line-height: (60 / 45);
+        // margin-bottom: 10px;
+    }
+    &__subtitle {
+        color: #CCAF83;
+        font-family: Visuelt Pro;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        letter-spacing: 0.05em;
+        line-height: (26 / 20);
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "wooder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^4.1.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-include": "^2.4.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-wait": "0.0.2",
+    "node-sass": "^4.11.0"
+  },
+  "browserslist": [
+    "last 2 version"
+  ]
+}

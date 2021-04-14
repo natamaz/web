@@ -1,0 +1,42 @@
+.btn {
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid rgba(#4E4E4E, 0.5);
+    // padding: 14px 40px;
+    padding: 16px 40px 12px;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    font-style: normal;
+    // font-weight: 500;
+    font-weight: 400;
+    font-size: 14px;
+    // line-height: (16 / 14);
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-align: center;
+    transition: all 0.3s ease-out;
+
+    &:hover, &:focus {
+        background: #232323;
+        border-color: #232323;
+    }
+}
+
+.btn-solid {
+    cursor: pointer;
+    background: #fff;
+    padding: 13px 25px;
+    border: 1px solid #FFFFFF;
+    color: #0A0A0A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: (21 / 16);
+    text-align: center;
+    letter-spacing: 0.05em;
+    transition: all 0.3s ease-out;
+    &:hover, &:focus {
+        color: #fff;
+        background: transparent;
+    }
+}
