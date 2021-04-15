@@ -12,13 +12,15 @@
     font-size: 14px;
     // line-height: (16 / 14);
     line-height: 1;
-    letter-spacing: 0.05em;
+    // letter-spacing: 0.05em;
+    letter-spacing: 0.06em;
     text-align: center;
     transition: all 0.3s ease-out;
 
     &:hover, &:focus {
         background: #232323;
         border-color: #232323;
+        outline: none;
     }
 }
 
