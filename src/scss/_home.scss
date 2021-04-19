@@ -266,6 +266,10 @@
     }
 }
 
+.h-planning-text-wrap {
+    transform: translateX(-55px);
+}
+
 .h-planning-text {
     font-family: "Playfair Display SC";
     font-style: normal;
@@ -275,8 +279,39 @@
     text-align: center;
     letter-spacing: 0.05em;
     color: #0A0A0A;
+    position: relative;
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        width: 24px;
+        height: 24px;
+        background: #ccaf83;
+        border-radius: 100%;
+        box-shadow: 0 0 0 13px #fff;
+    }
     &_left {
         align-self: center;
+        padding-right: 38px;
+        &:before {
+            right: 0;
+            transform: translate(50%, -50%);
+        }
+    }
+    &_right {
+        padding-left: 38px;
+        &:before {
+            left: 0;
+            transform: translate(-50%, -50%);
+        }
+
+        &:first-child {
+            margin-top: 35px;
+        }
+        &:last-child {
+            margin-bottom: 35px;
+        }
     }
 }
 
