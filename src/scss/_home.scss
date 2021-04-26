@@ -137,19 +137,6 @@
         color: #fff;
         letter-spacing: 0.05em;
     }
-
-    &:after {
-        content: "";
-        display: block;
-        width: 222px;
-        height: 1px;
-        background: #b2b2b2;
-        position: absolute;
-        bottom: 0;
-        right: -111px;
-        transform: rotate(45deg);
-        transform-origin: top left;
-    }
 }
 
 .h-process-list {
@@ -228,6 +215,7 @@
 // Planning
 .h-planning {
     margin-top: 104px;
+    margin-bottom: 27px;
     display: flex;
     justify-content: flex-end;
 }
@@ -244,6 +232,39 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
+
+    &:before {
+        content: "";
+        display: block;
+        width: 222px;
+        height: 1px;
+        background: #b2b2b2;
+        position: absolute;
+        // bottom: 0;
+        // right: -111px;
+        top: -54px;
+        left: -179px;
+        transform: rotate(45deg);
+        transform-origin: center;
+    }
+
+    &:after {
+        content: "";
+        display: block;
+        width: 222px;
+        height: 1px;
+        background: #b2b2b2;
+        position: absolute;
+        // bottom: 0;
+        // right: -111px;
+        bottom: -47px;
+        left: -167px;
+        transform: rotate(-45deg);
+        transform-origin: center;
+    }
+
     &__inner {
         border-radius: 100%;
         width: 220px;
@@ -358,6 +379,8 @@
         justify-content: center;
         flex-direction: column;
         padding: 35px;
+        position: relative;
+        z-index: 2;
     }
     &__title {
         text-align: center;
@@ -393,17 +416,7 @@
     letter-spacing: 0.05em;
     color: #0A0A0A;
     position: relative;
-    // &:before {
-    //     content: "";
-    //     display: block;
-    //     position: absolute;
-    //     top: 50%;
-    //     width: 24px;
-    //     height: 24px;
-    //     background: #ccaf83;
-    //     border-radius: 100%;
-    //     box-shadow: 0 0 0 13px #fff;
-    // }
+
     .h-сycle-dot {
         display: block;
         position: absolute;
@@ -413,16 +426,6 @@
         background: #ccaf83;
         border-radius: 100%;
         box-shadow: 0 0 0 13px #fff;
-        // &:after {
-        //     content: "";
-        //     display: block;
-        //     width: 14px;
-        //     height: 8px;
-        //     background: url("../img/angle-rel.svg") no-repeat center;
-        //     background-size: contain;
-
-        //     position: absolute;
-        // }
     }
     &_left {
         align-self: center;
@@ -455,13 +458,6 @@
             // transform: translateX(-24px);
             transform: translate(-24px, 3px);
         }
-
-        // &:first-child {
-        //     margin-top: 35px;
-        // }
-        // &:last-child {
-        //     margin-bottom: 35px;
-        // }
     }
 }
 
@@ -473,10 +469,7 @@
 }
 
 .h-сycle-left {
-    // padding-top: 110px;
-    // padding-bottom: 20px;
-    // padding-top: 94px;
-    // padding-bottom: 10px;
+
 }
 
 .h-сycle-right {
