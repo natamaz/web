@@ -22,4 +22,36 @@ body {
     max-width: 1290px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    z-index: 15;
+}
+
+.section-title {
+    color: #0A0A0A;
+    font-family: "Playfair Display SC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: (60 / 45);
+    letter-spacing: 0.15em;
+    text-align: center;
+    margin-bottom: 15px;
+    &_gold {
+        color: #CCAF83;
+    }
+}
+
+.section-desc {
+    color: #565656;
+    font-family: "Visuelt Pro";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: (21 / 16);
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+    &_white {
+        color: #fff;
+    }
 }
