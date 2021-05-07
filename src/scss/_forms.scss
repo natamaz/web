@@ -5,6 +5,9 @@
     margin-left: auto;
     margin-right: auto;
     padding: 30px 30px 25px;
+    @media (max-width: $mobile-max) {
+        padding: 15px 20px 20px;
+    }
     &__title {
         color: #ccaf83;
         font-family: Playfair Display SC;
@@ -16,12 +19,23 @@
         letter-spacing: 0.05em;
         text-transform: uppercase;
         margin-bottom: 30px;
+        @media (max-width: $mobile-max) {
+            font-size: 14px;
+            line-height: (19 / 14);
+            margin-bottom: 16px;
+        }
     }
 
     .form {
         max-width: 964px;
         width: 100%;
         margin: 0 auto;
+    }
+
+    .form-btn-wrap {
+        @media (max-width: $mobile-max) {
+            margin-top: 10px;
+        }
     }
 }
 
@@ -36,6 +50,9 @@
     padding: 0 8px;
     margin-bottom: 25px;
     width: 100%;
+    @media (max-width: $mobile-max) {
+        margin-bottom: 10px;
+    }
     &_3 {
         @media (min-width: 576px) {
             width: (100% / 3);

@@ -9,6 +9,9 @@
     background: #fff;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
     z-index: 16;
+    @media (max-width: $mobile-max) {
+        padding: 10px 20px;
+    }
 }
 
 .header-logo {
@@ -21,6 +24,28 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    @media (max-width: $mobile-max) {
+        position: absolute;
+        bottom: -8px;
+        left: 9px;
+        right: 9px;
+        
+        background: #fff;
+        padding: 12px 15px;
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(80%);
+        // z-index: -1;
+        transition: all 0.3s ease-out;
+        &.opened {
+            opacity: 1;
+            visibility: visible;
+            z-index: 100;
+            transform: translateY(100%);
+            
+        }
+    }
     &__link {
         color: #101010;
         font-style: normal;
@@ -30,5 +55,85 @@
         letter-spacing: 0.1em;
         text-decoration: none;
         margin-left: 45px;
+        @media (max-width: $mobile-max) {
+            display: block;
+            margin-left: 0;
+            padding: 10px 0 9px;
+            font-size: 12px;
+            line-height: 15px;
+            border-bottom: 1px solid #ccaf83;
+            &:first-child {
+                padding-top: 0;
+            }
+            &:last-child {
+                padding-bottom: 0;
+                border-bottom: none
+            }
+        }
     }
+}
+
+.header-nav-btn {
+    display: none;
+
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+    width: 20px;
+    height: 2px;
+    background: #101010;
+    transition: all 0.4s ease-out;
+
+    &:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #ccaf83;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+
+        transform: translateY(7px);
+
+        transition: inherit;
+    }
+
+    &:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #101010;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        transform: translateY(-7px);
+
+        transition: inherit;
+    }
+
+    &.opened {
+        // opacity: 0;
+        background: transparent;
+        &:after {
+            transform: translateY(0) rotate(45deg);
+            background: #ccaf83;
+        }
+        &:before {
+            transform: translateY(0) rotate(-45deg);
+            background: #ccaf83;
+        }
+    }
+
+    @media (max-width: $mobile-max) {
+        display: block;
+    }
+
 }

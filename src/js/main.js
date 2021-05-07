@@ -21,4 +21,10 @@ $(document).ready(function() {
         $(sliderNav + ' [data-go-to-slide]').removeClass('active');
         $(sliderNav + ' [data-go-to-slide="' + nextSlide + '"]').addClass('active');
     });
+
+    // Menu
+    $('.header-nav-btn').click(function() {
+        $(this).toggleClass('opened');
+        $('.header-nav').toggleClass('opened');
+    });
 });
