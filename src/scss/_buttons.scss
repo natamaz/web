@@ -22,6 +22,9 @@
         border-color: #232323;
         outline: none;
     }
+    @media (max-width: $mobile-max){
+        letter-spacing: 0.01em;
+    }
 }
 
 .btn-solid {
@@ -41,5 +44,11 @@
         color: #fff;
         background: transparent;
     }
+    @media (max-width: $mobile-max){
+        margin: 31px auto 0;
+        padding: 10px 20px 10px 20px;
+        font-size: 14px;
+    }
+
 }
 

@@ -22,7 +22,7 @@
         @media (max-width: $mobile-max) {
             font-size: 14px;
             line-height: (19 / 14);
-            margin-bottom: 16px;
+            margin-bottom: 17px;
         }
     }
 
@@ -51,7 +51,7 @@
     margin-bottom: 25px;
     width: 100%;
     @media (max-width: $mobile-max) {
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
     &_3 {
         @media (min-width: 576px) {
@@ -59,10 +59,15 @@
         }
     }
 }
-
+.form-col_only{
+    .form-input{
+        min-height: 70px;
+        padding: 11px 12px 10px 12px;
+    }
+}
 .form-input {
     border: 1px solid rgba(#4E4E4E, 0.5);
-    padding: 18px 25px;
+    padding: 11px 14px;
     background: transparent;
     display: block;
     width: 100%;

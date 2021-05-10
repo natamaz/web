@@ -16,6 +16,9 @@ body {
     background: url("../img/bg.svg") center top repeat;
     z-index: 14;
     // background-size: 19px 516px;
+    @media (max-width: $mobile-max){
+        background: url("../img/img-bg-mob.svg") center top no-repeat;
+    }
 }
 
 .container {
@@ -40,6 +43,11 @@ body {
     margin-bottom: 15px;
     &_gold {
         color: #CCAF83;
+    }
+    @media (max-width: $mobile-max){
+        font-size: 24px;
+        line-height: 1.1;
+        letter-spacing: 0.1em;
     }
 }
 

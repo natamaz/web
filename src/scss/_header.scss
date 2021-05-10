@@ -5,7 +5,7 @@
     right: 0;
     display: flex;
     align-items: center;
-    padding: 8px 30px;
+    padding: 11px 30px;
     background: #fff;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
     z-index: 16;
@@ -18,6 +18,9 @@
     max-width: 180px;
     margin-right: auto;
     flex-grow: 0;
+    img{
+        width: 147px;
+    }
 }
 
 .header-nav {
